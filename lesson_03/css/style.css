@@ -1,0 +1,52 @@
+@import url(reset.css);
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text {
+  color: blue;
+}
+
+.block a {
+  color: red;
+}
+
+#sub-title {
+  color: rgb(0, 133, 55);
+}
+
+ul.block {
+  color: violet;
+}
+
+.text ~ p {
+  color: aqua;
+}
+
+.block a[href$=".ua"] {
+  color: yellow;
+}
+
+div p + p {
+  color: brown;
+}
+
+[class*="nder"] {
+  color: darkorange;
+}
+
+.sub-under > p {
+  color: green;
+}

@@ -1,0 +1,33 @@
+@import url(reset.css);
+
+@import url(fonts.css);
+
+body {
+  font-family: "YNWA-Regular", "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.text {
+  font-family: "Roboto";
+  letter-spacing: 1.5;
+  word-spacing: 5px;
+}
+
+.block {
+  font-family: "YNWA-Italic";
+  font-size: 24px;
+  text-decoration: line-through;
+}
+
+.block a {
+  color: #1f7909;
+  text-decoration: underline;
+  text-shadow: 4px 4px 5px #000, 8px 2px 8px yellow;
+}
+
+.test-text {
+  font-family: "Playfair";
+  text-align: justify;
+  text-transform: capitalize;
+  line-height: 1.5;
+}

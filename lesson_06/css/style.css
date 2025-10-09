@@ -1,0 +1,93 @@
+@import url(reset.css);
+
+@import url(fonts.css);
+
+@font-face {
+  font-family: "LatoMedium";
+  src: url(fonts/Lato-Medium.woff2) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LatoExtraBold";
+  src: url(fonts/Lato-ExtraBold.woff2) format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+.heading {
+  background-image: url("img/Rectangle1.png");
+  height: 612px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.blocks {
+  font-size: 0;
+  margin-left: -40px;
+  margin-right: -40px;
+}
+
+.block {
+  max-width: 30%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.main-block {
+  max-width: 270px;
+  margin: 0 auto;
+  border: solid 1px #252b43;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.list {
+  font-size: 14px;
+}
+
+.item {
+  padding-left: 45px;
+  padding-top: 4px;
+  background: url("..//img/Checkbadge1.png") 0 0 no-repeat;
+  margin-bottom: 10px;
+  min-height: 32px;
+  line-height: 1.5;
+  font-family: "Montserrat", "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.item-disabled {
+  padding-left: 45px;
+  padding-top: 4px;
+  background: url("..//img/Checkbadge.png") 0 0 no-repeat;
+  margin-bottom: 10px;
+  min-height: 32px;
+  line-height: 1.5;
+  font-family: "Montserrat", "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+/* .subtitle {
+  display: inline-block;
+  font-family: "Lato", "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #31322c;
+  margin-top: 114px;
+  margin-bottom: 470px;
+} */
+
+/* .heading-text {
+  font-size: 96px;
+  font-family: "LatoExtraBold";
+  display: block;
+} */

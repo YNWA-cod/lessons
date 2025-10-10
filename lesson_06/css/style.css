@@ -1,0 +1,178 @@
+@import url(reset.css);
+
+@import url(fonts.css);
+
+@font-face {
+  font-family: "LatoMedium";
+  src: url(fonts/Lato-Medium.woff2) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LatoExtraBold";
+  src: url(fonts/Lato-ExtraBold.woff2) format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+* main {
+  margin-bottom: 20px;
+}
+.heading {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.first-text {
+  padding: 20px;
+  border-top: 5px solid red;
+  border-left: 5px dotted green;
+  border-bottom: 5px dashed yellow;
+  border-right: 5px double blue;
+  margin-bottom: 10px;
+}
+.second-text {
+  padding: 20px;
+  outline: 4px solid blueviolet;
+  margin-bottom: 10px;
+  opacity: 0.5;
+}
+.third-text {
+  margin-bottom: 20px;
+  padding: 100px;
+  border: 10px solid salmon;
+  border-radius: 0% 26% 0% 26% / 0% 98% 2% 100%;
+}
+
+.test-shadow {
+  display: inline-block;
+  background-color: #4eff01;
+  padding: 50px;
+  box-shadow: 18px 20px 3px 0px rgba(0, 0, 0, 0.59);
+}
+
+.bg-section {
+  background-image: url("..//img/Rectangle1.png");
+  height: 612px;
+  max-width: 1920px;
+  margin: 0 auto;
+  margin-bottom: 82px;
+}
+
+.block {
+  display: inline-block;
+  padding-top: 114px;
+  padding-left: 1008px;
+  padding-bottom: 170px;
+  padding-right: 394px;
+  text-align: left;
+  vertical-align: top;
+  vertical-align: top;
+}
+
+.block .subtitle {
+  margin-left: 5px;
+}
+
+.main-block {
+  border: solid 1px #252b43;
+  border-radius: 10px;
+}
+
+.list {
+  margin: 0 auto;
+  font-size: 14px;
+  max-width: 270px;
+  padding: 5px;
+}
+
+.item {
+  padding-left: 45px;
+  padding-top: 4px;
+  background: url("..//img/Checkbadge1.png") 0 0 no-repeat;
+  margin-bottom: 10px;
+  min-height: 32px;
+  line-height: 1.5;
+  font-family: "Montserrat", "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.item-disabled {
+  padding-left: 45px;
+  padding-top: 4px;
+  background: url("..//img/Checkbadge.png") 0 0 no-repeat;
+  margin-bottom: 10px;
+  min-height: 32px;
+  line-height: 1.5;
+  font-family: "Montserrat", "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.subtitle {
+  display: inline-block;
+  font-family: "Lato", "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #31322c;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-family: "LatoExtraBold", "Roboto", sans-serif;
+  font-size: 96px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.line {
+  max-width: 308px;
+  border: solid 1px black;
+  margin-bottom: 36px;
+}
+
+.text p {
+  margin-left: 5px;
+  color: gray;
+  font-family: "Lato", "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.footer-section {
+  margin: 0 auto;
+  font-size: 14px;
+  max-width: 200px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(87, 199, 195, 1) 68%,
+    rgba(31, 218, 243, 1) 100%,
+    rgba(67, 0, 252, 1) 100%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  margin-bottom: 20px;
+}
+
+.bg-footer {
+  min-height: 1200px;
+  background-image: url(..//img/section.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.test-bgsize {
+  min-height: 800px;
+  background-image: url(..//img/section.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 600px 600px;
+}

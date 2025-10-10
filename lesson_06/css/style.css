@@ -55,7 +55,7 @@
 }
 
 .bg-section {
-  background-image: url("..//img/Rectangle1.png");
+  background-image: url("img/Rectangle1.png");
   height: 612px;
   max-width: 1920px;
   margin: 0 auto;
@@ -92,7 +92,7 @@
 .item {
   padding-left: 45px;
   padding-top: 4px;
-  background: url("..//img/Checkbadge1.png") 0 0 no-repeat;
+  background: url("img/Checkbadge1.png") 0 0 no-repeat;
   margin-bottom: 10px;
   min-height: 32px;
   line-height: 1.5;
@@ -103,7 +103,7 @@
 .item-disabled {
   padding-left: 45px;
   padding-top: 4px;
-  background: url("..//img/Checkbadge.png") 0 0 no-repeat;
+  background: url("img/Checkbadge.png") 0 0 no-repeat;
   margin-bottom: 10px;
   min-height: 32px;
   line-height: 1.5;
@@ -163,7 +163,7 @@
 
 .bg-footer {
   min-height: 1200px;
-  background-image: url(..//img/section.png);
+  background-image: url("img/section.png");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -171,8 +171,9 @@
 
 .test-bgsize {
   min-height: 800px;
-  background-image: url(..//img/section.png);
+  background-image: url("img/section.png");
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 600px 600px;
 }
+

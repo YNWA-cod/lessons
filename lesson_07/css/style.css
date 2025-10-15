@@ -1,7 +1,7 @@
 @import url(reset.css);
 
 .wrapper {
-  background: url("..//img/mountains-background-game-vector.jpg") 0 0 no-repeat;
+  background: url("../img/mountains-background-game-vector.jpg") 0 0 no-repeat;
   font-size: 0;
 }
 
@@ -52,7 +52,7 @@ a:visited {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  background: url(/img/41524.jpg) 0 0 no-repeat;
+  background: url(../img/41524.jpg) 0 0 no-repeat;
   background-size: 1200px auto;
 }
 
@@ -265,3 +265,4 @@ a:visited {
 .second-text p:nth-child(even) {
   color: red;
 }
+

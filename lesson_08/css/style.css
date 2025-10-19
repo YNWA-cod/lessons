@@ -1,0 +1,98 @@
+@import url(reset.css);
+
+* body {
+  font-size: 19px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 400;
+}
+.content {
+  width: 1200px;
+  margin: 0 auto;
+}
+.heading {
+  padding-top: 32px;
+  margin-bottom: 102px;
+}
+
+.shanti-logo {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.shanti-logo span {
+  margin-left: 30px;
+}
+.logo-shanti {
+  width: 100%;
+  max-width: 124px;
+}
+
+.convert-image {
+  margin-bottom: 50px;
+}
+.practice-yoga {
+  border-radius: 33px 33px 33px 33px;
+  margin-bottom: 30px;
+}
+
+.first-yoga picture img {
+  margin-bottom: 15px;
+}
+
+.first-yoga {
+  margin-bottom: 30px;
+}
+
+.read-more-logo {
+  max-width: 100px;
+  max-height: 100px;
+  width: 100%;
+}
+
+.read-more-logo {
+  margin-right: 20px;
+}
+
+.decor-element img {
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.practice-yoga img {
+  margin-bottom: 30px;
+}
+
+.our-lessons {
+  font-size: 0;
+  display: inline-block;
+  margin: -20px;
+}
+.item {
+  font-size: 19px;
+  display: inline-block;
+  padding: 20px;
+  max-width: 33.333%;
+  vertical-align: top;
+  width: 100%;
+}
+.yoga-beginner {
+  max-width: 385px;
+  max-height: 477px;
+}
+
+.regular-practice img {
+  max-width: 368px;
+  max-height: 368px;
+}
+
+.individual-practice {
+  max-width: 362px;
+  max-height: 477px;
+}
+
+.box-logo-item {
+  max-width: 25px;
+  max-height: 25px;
+  width: 100%;
+  margin: 8px;
+}

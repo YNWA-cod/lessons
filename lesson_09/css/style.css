@@ -31,17 +31,6 @@
   display: inline-block;
 }
 
-/* .header__logo {
-  display: inline-block;
-}
-
-.header__search {
-  display: inline-block;
-}
-.header__items {
-  display: inline-block;
-} */
-
 .heading {
   padding: 20px;
 }
@@ -75,7 +64,7 @@
 }
 
 .block-welcome {
-  background-image: url("..//img/Rectangle1.png");
+  background-image: url("./img/Rectangle1.png");
   height: 612px;
   max-width: 1920px;
   margin: 0 auto;
@@ -185,3 +174,4 @@
   background-position: left center;
   background-size: 600px 600px;
 }
+

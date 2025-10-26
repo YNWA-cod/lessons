@@ -61,13 +61,14 @@
 
 .container__subtitle,
 .container__button {
-  transform: translateX(-50%);
   position: absolute;
-  left: 50%;
+  left: 0;
+  width: 100%;
   color: white;
   visibility: hidden;
   transition: visibility 0.3s, opacity 0.3s;
   opacity: 0;
+  text-align: center;
 }
 
 .container__item:hover .container__subtitle,
@@ -178,3 +179,4 @@
 .list__item:not(:last-child) {
   margin-bottom: 10px;
 }
+

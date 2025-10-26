@@ -85,7 +85,7 @@
   text-align: center;
 }
 
-.container__section h3 {
+.container__section h2 {
   font-size: 20px;
   color: black;
   line-height: 39px;
@@ -112,7 +112,7 @@
   opacity: 0.5;
 }
 
-.container__section-button:hover h3 {
+.container__section-button:hover h2 {
   color: white;
 }
 
@@ -175,3 +175,4 @@
 .list__item:not(:last-child) {
   margin-bottom: 10px;
 }
+

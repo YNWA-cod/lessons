@@ -222,7 +222,7 @@
   width: 100%;
 }
 
-.container__section-button {
+.container__subbutton {
   max-width: 133px;
   width: 100%;
   height: 39px;
@@ -230,12 +230,12 @@
   transition: background-color 0.3s, color 0.3s;
 }
 
-.container__section-button:hover {
+.container__subbutton:hover {
   background-color: black;
   opacity: 0.5;
 }
 
-.container__section-button:hover span {
+.container__subbutton:hover span {
   color: white;
 }
 

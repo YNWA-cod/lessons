@@ -12,38 +12,44 @@
   <body>
     <header>
       <div class="header">
-        <div class="header-container">
+        <div class="container">
           <img
-            class="header__logo"
+            class="container__logo"
             src="./img/Logo-furnitur.svg"
-            alt="This is the logo furnitur"
+            alt="This is the shanti logo located in the upper left part of the site"
           />
-          <div class="header__search">
-            <div class="header__search-text">Search items</div>
+          <div class="container__search">
+            <div class="container__text">Search items</div>
           </div>
-          <nav class="header__nav">
-            <ul class="header__menu">
-              <li class="header__menu-item">Home</li>
-              <li class="header__menu-item header__menu-item--list">Shop</li>
-              <li class="header__menu-item">Blog</li>
-              <li class="header__menu-item">About us</li>
+          <nav class="container__nav menu">
+            <ul class="menu__header item">
+              <li class="item__menu">Home</li>
+              <li class="item__menu">Shop</li>
+              <li class="item__menu">
+                Blog
+                <a href="#" class="item__link"></a>
+                <ul class="item__brands">
+                  <li class="item__brand"></li>
+                </ul>
+              </li>
+              <li class="item__brand">About us</li>
             </ul>
-            <div class="header__icon header__icon--love">Love</div>
-            <div class="header__icon header__icon--cart">Cart</div>
+            <div class="menu__icon menu__icon--love">Love</div>
+            <div class="menu__icon menu__icon--cart">Cart</div>
           </nav>
         </div>
       </div>
     </header>
     <main>
-      <div class="block">
-        <div class="block-welcome">
-          <span class="block-welcome block-welcome--subtitle"
-            >WELCOME TO OUR</span
-          >
-          <h1 class="block-welcome-title"><span>FUNITURE</span> GALLERY</h1>
-          <div class="block-welcome-line"></div>
-          <div class="block-welcome-subtitle">BROWSE OUR SELECTIONS</div>
-          <div class="block-welcome-text">
+      <div class="wrapper">
+        <div class="hero">
+          <span class="hero__title hero__title--subtitle">WELCOME TO OUR</span>
+          <h1 class="hero__title hero__title--decortitle">
+            <span>FUNITURE</span> GALLERY
+          </h1>
+          <div class="hero__line"></div>
+          <div class="hero__subtitle">BROWSE OUR SELECTIONS</div>
+          <div class="hero__text">
             <p>
               Featuring sleek design and innovative materials that seamlessly
               blend form and function
@@ -51,32 +57,38 @@
           </div>
         </div>
         <div class="categories-banner">
-          <div class="category-card">
-            <h3 class="category-title">HANGING LIGHT</h3>
-            <p class="category-description">
+          <div class="categories-banner__card">
+            <h2 class="categories-banner__title">HANGING LIGHT</h2>
+            <p class="categories-banner__description">
               Upgrade your space with our modern hanging light...
             </p>
-            <a href="#" class="category-link">View more ></a>
+            <a href="#" class="categories-banner__link">View more ></a>
           </div>
           <div class="category-card-main">
-            <h3 class="category-title category-title--heading">
+            <h2
+              class="category-card-main__title category-card-main__title-decoration"
+            >
               DESIGNED SOFA
-            </h3>
-            <p class="category-description category-description--center">
+            </h2>
+            <p
+              class="category-card-main__description category-card-main__description--text"
+            >
               Introducing our newest sofa, the perfect combination of style and
               comfort, designed to elevate your living space and provide
               ultimate relaxation.
             </p>
-            <a href="#" class="category-link category-link--center"
+            <a
+              href="#"
+              class="category-card-main__link category-card-main__link--broad"
               >View more ></a
             >
           </div>
           <div class="category-card">
-            <h3 class="category-title category-title--bottom">HANGING LIGHT</h3>
+            <h2 class="category-title category-title--bottom">HANGING LIGHT</h2>
             <p class="category-description category-description--bottom">
               Upgrade your space with our modern hanging light...
             </p>
-            <a href="#" class="category-link category-link--right"
+            <a href="#" class="category-link category-link--narrow"
               >View more ></a
             >
           </div>
@@ -88,19 +100,23 @@
       <div class="companies">
         <div class="company-title">
           <div class="company">
-            <ul class="company-item">
-              <li class="company-item company-item--aspen">ASPEN</li>
-              <li class="company-item company-item--crop">Crop</li>
-              <li class="company-item company-item--netflix">Netflix</li>
-              <li class="company-item company-item--miiissy">Miiissy</li>
-              <li class="company-item company-item--peppermint">Peppermint</li>
-              <li class="company-item company-item--pixie">Pixie</li>
-              <li class="company-item company-item--netflix">Netflix</li>
-              <li class="company-item company-item--pixie">Pixie</li>
-              <li class="company-item company-item--peppermint">Peppermint</li>
-              <li class="company-item company-item--miiissy">Miiissy</li>
-              <li class="company-item company-item--aspen">ASPEN</li>
-              <li class="company-item company-item--crop">Crop</li>
+            <ul class="company__items">
+              <li class="company__item company__item--aspen">ASPEN</li>
+              <li class="company__item company__item--crop">Crop</li>
+              <li class="company__item company__item--netflix">Netflix</li>
+              <li class="company__item company__item--miiissy">Miiissy</li>
+              <li class="company__item company__item--peppermint">
+                Peppermint
+              </li>
+              <li class="company__item company__item--pixie">Pixie</li>
+              <li class="company__item company__item--netflix">Netflix</li>
+              <li class="company__item company__item--pixie">Pixie</li>
+              <li class="company__item company__item--peppermint">
+                Peppermint
+              </li>
+              <li class="company__item company__item--miiissy">Miiissy</li>
+              <li class="company__item company__item--aspen">ASPEN</li>
+              <li class="company__item company__item--crop">Crop</li>
             </ul>
           </div>
         </div>
@@ -108,4 +124,3 @@
     </footer>
   </body>
 </html>
-

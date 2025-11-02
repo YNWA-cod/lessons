@@ -1,0 +1,212 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Підключення шрифтів */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair%20Display:wght@400&display=swap"); */
+
+/* Основні стилі */
+
+/* Значення за замовченням  */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #333;
+  color: #fff;
+
+  padding: 30px;
+}
+.wrapper {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100%;
+  overflow: clip;
+  padding-top: 100px;
+}
+/* ------------------------------------------------------------------- */
+[class*="__container"] {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.container__page {
+  max-width: 1200px;
+  position: relative;
+  min-height: 300px;
+}
+
+.car__main {
+  position: relative;
+  top: 50px;
+  width: 650px;
+  height: 320px;
+  border-radius: 22% 20% 0% 24% / 58% 59% 24% 0%;
+  background: #fe8700;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.car__hood {
+  position: absolute;
+  top: 47%;
+  left: -15%;
+  width: 150px;
+  height: 170px;
+  border-radius: 69% 0% 0% 26% / 60% 59% 24% 0%;
+  background-color: #fe8700;
+}
+.hood__headlamp {
+  position: absolute;
+  border-radius: 50%;
+  width: 70px;
+  height: 50px;
+  top: 70%;
+  left: 20%;
+  transform: translate(-50%, -50%) rotate(-70deg);
+  background: linear-gradient(90deg, #ffffff 0%, #feff99 30%, #ffe600 100%);
+}
+
+.hood__light {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  top: 70%;
+  transform: translateX(-90%) rotate(-15deg);
+  background: linear-gradient(90deg, #ffffff 0%, #feff99 30%, #ffe600 100%);
+  border-radius: 0% 100% 100% 0% / 0% 20% 20% 0%;
+  visibility: hidden;
+}
+
+.hood__headlamp:hover + .hood__light {
+  visibility: visible;
+}
+
+.car__windows {
+  position: relative;
+  width: 450px;
+  left: 35%;
+  top: 20%;
+  min-height: 100px;
+  transform: translateX(-30%) translateY(-10%);
+  z-index: 3;
+}
+
+.car__door {
+  position: relative;
+  height: 200px;
+  width: 100px;
+  outline: 6px solid gray;
+  padding-top: 5px;
+  border-radius: 83% 0% 0% 26% / 40% 59% 24% 0%;
+  transform-origin: left center; /* точка обертання (зліва по центру) */
+  transition: transform 0.5s ease;
+
+  .car__door:hover {
+    transform: rotateY(45deg);
+  }
+
+  .car__image {
+    position: absolute;
+    width: 40px;
+    height: 35px;
+    top: 60%;
+    left: 50%;
+    transition: transform 0.3s ease;
+  }
+  .car__window {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: #a4bbce;
+    border: 4px solid black;
+    top: 0;
+    color: #000;
+    line-height: 50px;
+  }
+  .car__window h5:hover {
+    transform: scale(1.5);
+    background-color: #a4bbce;
+  }
+  .car__window--driver {
+    border-radius: 85% 15% 25% 26% / 74% 0% 0% 0%;
+  }
+
+  .car__window:not(.car__window--driver):not(.car__window--back) {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .car__window--back {
+    transform: scale(-1, 1);
+    position: absolute;
+    border-radius: 85% 15% 25% 26% / 74% 0% 0% 0%;
+  }
+
+  .car__window:first-child {
+    left: 0;
+  }
+  .car__window:last-child {
+    right: 0;
+  }
+
+  .car__stop {
+    position: absolute;
+    border-radius: 50%;
+    width: 70px;
+    height: 50px;
+    top: 85%;
+    left: 92%;
+    transform: translate(-50%, -50%) rotate(80deg);
+    background: linear-gradient(
+      90deg,
+      rgba(84, 56, 56, 1) 0%,
+      rgba(255, 0, 0, 1) 100%,
+      rgba(31, 218, 243, 1) 100%,
+      rgba(67, 0, 252, 1) 100%,
+      rgba(237, 221, 83, 1) 100%
+    );
+  }
+  .weels {
+    position: absolute;
+    width: 450px;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .weel {
+    width: 100px;
+    height: 100px;
+    background-color: #a4bbce;
+    border-radius: 50%;
+    border: 10px dashed #000;
+    position: relative;
+  }
+
+  .weel::after {
+    content: "";
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+  }
+
+  .weel:hover {
+    transform: rotate(-180deg);
+    transition: transform 2s ease;
+  }
+  .weel:first-child {
+    left: 0;
+  }
+  .weel:last-child {
+    right: 0;
+  }
+}

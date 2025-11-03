@@ -20,8 +20,6 @@ body {
 }
 .wrapper {
   position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
   min-height: 100%;
   overflow: clip;
   padding-top: 100px;
@@ -34,6 +32,7 @@ body {
 .container__page {
   max-width: 1200px;
   position: relative;
+  margin: 0 auto;
   min-height: 300px;
 }
 
@@ -127,7 +126,7 @@ body {
   line-height: 50px;
   z-index: 10;
 }
-.car__window h5:hover {
+.car__window p:hover {
   transform: scale(1.5);
   background-color: #a4bbce;
 }
@@ -211,3 +210,4 @@ body {
 .weel:last-child {
   right: 0;
 }
+

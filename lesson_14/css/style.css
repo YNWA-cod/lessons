@@ -1,0 +1,203 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Підключення шрифтів */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair%20Display:wght@400&display=swap"); */
+
+/* Основні стилі */
+
+/* Значення за замовченням  */
+body {
+  font-family: "Lato-Medium", sans-serif;
+  background-color: #fff;
+  color: #fff;
+}
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  overflow: clip;
+  padding-top: 82px;
+}
+
+.registration {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.registration__header {
+  text-align: center;
+  margin-bottom: 164px;
+}
+
+.registration__title {
+  font-family: "Lato-ExtraBold", sans-serif;
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 36px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.registration__subtitle {
+  font-size: 14px;
+  color: #81817f;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.registration__content {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.form {
+  background: white;
+  padding: 0px;
+  border-radius: 8px;
+  flex: 1;
+  max-width: 712px;
+}
+
+.form__header {
+  margin-bottom: 72px;
+}
+
+.form__title {
+  font-family: "Lato-ExtraBold", sans-serif;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 36px;
+}
+
+.form__login-link {
+  font-size: 14px;
+  color: #666;
+}
+
+.form__link {
+  color: #333;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.form__link:hover {
+  color: #000;
+}
+
+.form__row {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.form__row--full {
+  flex-direction: column;
+}
+
+.input {
+  position: relative;
+  flex: 1;
+}
+
+.form__row:last-of-type {
+  margin-bottom: 72px;
+}
+
+.input__label {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.input__field {
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 12px 0px;
+  max-height: 44px;
+  height: 100%;
+  font-size: 14px;
+}
+
+.input__field:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.input__field::placeholder {
+  color: #7e7e7c;
+}
+
+.button {
+  width: 47.19%;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #000;
+}
+
+.promo {
+  background: #f6f6f6;
+  border-radius: 8px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 10px;
+  max-width: 600px;
+  /* flex: 1; */
+  padding-left: 80px;
+}
+
+.promo__content {
+  flex: 0 0 auto;
+}
+
+.promo__badge {
+  display: inline-block;
+  background-color: #d32f2f;
+  color: white;
+  padding: 6px 16px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.promo__title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  line-height: 40px;
+  max-width: 184px;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 60px;
+}
+
+.promo__image {
+  flex: 1;
+  max-width: 350px;
+}
+
+.promo__lamps {
+  width: 100%;
+  max-width: 378px;
+  height: auto;
+  display: block;
+  position: relative;
+  right: 50px;
+}
